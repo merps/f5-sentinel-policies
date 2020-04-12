@@ -1,13 +1,14 @@
 import "time"
-
     
 # Time rule info
-# We expect requests to only happen during work days (0 for Sunday, 6 for Saturday)
+# For some workspaces, we only want changes to happen during change windows
+# This policy defines a change window day (0 for Sunday, 6 for Saturday) and time (in GMT).
+
 workdays = rule {
     time.now.weekday == 0 
 }
 
-# We expect requests to only happen during work hours
+# Change window runs from 1-12 GMT on Sunday.
 workhours = rule {
     time.now.hour > 1 and time.now.hour < 12  #GMT Time
 } 
