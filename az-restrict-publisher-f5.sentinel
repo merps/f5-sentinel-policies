@@ -11,6 +11,7 @@ get_vms = func() {
 
 allowed_publishers = [
   "f5-networks",
+  "Canonical",
 ]
 
 vms = get_vms()

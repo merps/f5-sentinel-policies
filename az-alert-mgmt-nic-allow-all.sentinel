@@ -15,7 +15,7 @@ disallowed_cidr_blocks = [
   "*",
 ]
 
-lock_allow_all = rule {
+block_allow_all = rule {
   all network_sgs as _, instances {
     all instances as _, sg {
     	all sg.applied.security_rule as _, sr {
