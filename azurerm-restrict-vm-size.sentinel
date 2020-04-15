@@ -45,6 +45,7 @@ get_resources_all_modules = func(type) {
 # so including both cases for "v"
 # since we have seen both used
 allowed_vm_sizes = [
+      "Standard_B2s",
       "Standard_A3",
       "Standard_A4",
       "Standard_A5",
