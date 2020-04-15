@@ -89,7 +89,7 @@ allowed_vm_sizes = [
        "Standard_G5",
        "Standard_GS3",
        "Standard_GS4",
-       "Standard_GS5"
+       "Standard_GS5",
 ]
 
 vm_size_allowed = rule {
