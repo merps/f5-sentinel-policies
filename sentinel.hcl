@@ -10,7 +10,7 @@ policy "azurerm-restrict-vm-size" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "az-restrict-publisher-f5" {
+policy "az-restrict-publisher-f5-2" {
   enforcement_level = "soft-mandatory"
 }
 
